@@ -16,7 +16,7 @@ import weakref
 
 class _PathInitializer(object):
     PLATFORM_DICT = {'Windows': ['PATH','dll',''], 'Linux': ['LD_LIBRARY_PATH','so','libmw'], 'Darwin': ['DYLD_LIBRARY_PATH','dylib','libmw']}
-    SUPPORTED_PYTHON_VERSIONS = ['3_8', '3_9', '3_10']
+    SUPPORTED_PYTHON_VERSIONS = ['3_6','3_8', '3_9', '3_10']
     RUNTIME_VERSION_W_DOTS = '9.14'
     RUNTIME_VERSION_W_UNDERSCORES = '9_14'
     PACKAGE_NAME = 'Ki67_counter'
